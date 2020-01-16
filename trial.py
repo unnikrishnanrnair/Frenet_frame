@@ -14,5 +14,4 @@ from math import sin, cos, sqrt, atan2, radians
 coords = np.loadtxt('gps_waypoint.txt',delimiter=' ')
 lat = np.array(coords[:,0])
 lon = np.array(coords[:,1])
-
 print(lat.shape)
